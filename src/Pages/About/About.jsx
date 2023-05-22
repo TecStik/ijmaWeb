@@ -49,7 +49,7 @@ const About = () => {
                             </div> */}
                         </div>
                         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left" data-aos-delay="200">
-                            <img src="https://i.ibb.co/3mFDHHJ/laptop-01.png" id="labtopImage"
+                            <img src="https://i.ibb.co/GJSYYh4/laptop1.png"id="labtopImage"
                                 class="img-fluid animated" alt="" />
                         </div>
                     </div>

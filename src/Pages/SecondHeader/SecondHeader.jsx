@@ -189,7 +189,7 @@ function SecondHeader() {
                   </div>
                 ))}
               </Slide> */}
-              {/* <img src="https://i.ibb.co/3mFDHHJ/laptop-01.png" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="300" /> */}
+              {/* <img src="https://i.ibb.co/GJSYYh4/laptop1.png"class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="300" /> */}
             </div>
           </div>
           {/* <br />

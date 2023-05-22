@@ -26,24 +26,24 @@ function Home() {
   }
   const slideImages = [
     {
-      url: 'https://i.ibb.co/3mFDHHJ/laptop-01.png',
+      url: 'https://i.ibb.co/GJSYYh4/laptop1.png',
       caption: 'Slide 1'
     },
     {
-      url: 'https://i.ibb.co/3mFDHHJ/laptop-01.png',
+      url: 'https://i.ibb.co/GJSYYh4/laptop1.png',
       caption: 'Slide 2'
     },
     {
-      url: 'https://i.ibb.co/3mFDHHJ/laptop-01.png',
+      url: 'https://i.ibb.co/GJSYYh4/laptop1.png',
       caption: 'Slide 3'
     },
   ];
 
   const images = [
-    'https://i.ibb.co/3mFDHHJ/laptop-01.png',
-    'https://i.ibb.co/3mFDHHJ/laptop-01.png',
-    'https://i.ibb.co/3mFDHHJ/laptop-01.png',
-    'https://i.ibb.co/3mFDHHJ/laptop-01.png',
+    'https://i.ibb.co/GJSYYh4/laptop1.png',
+    'https://i.ibb.co/GJSYYh4/laptop1.png',
+    'https://i.ibb.co/GJSYYh4/laptop1.png',
+    'https://i.ibb.co/GJSYYh4/laptop1.png',
     // 'images/slide_6.jpg',
     // 'images/slide_7.jpg'
   ];
@@ -70,11 +70,11 @@ function Home() {
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center text-lg-start">
                 <Slide>
-                  <Zoom scale={0.4}>
+                  {/* <Zoom scale={0.4}> */}
                     {
-                      images.map((each, index) => <img key={index} style={{ width: "100%" }} src={each} />)
+                      images.map((each, index) => <img key={index} style={{ width: "80%",alignItems:"center",marginLeft:"10%" }} src={each} />)
                     }
-                  </Zoom>
+                  {/* </Zoom> */}
                 </Slide>
                 {/* <Slide>
                 {slideImages.map((slideImage, index) => (
@@ -85,7 +85,7 @@ function Home() {
                   </div>
                 ))}
               </Slide>
-                {/* <img src="https://i.ibb.co/3mFDHHJ/laptop-01.png" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="300" /> */}
+                {/* <img src="https://i.ibb.co/GJSYYh4/laptop1.png" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="300" /> */}
               </div>
             </div>
             {/* <br />
