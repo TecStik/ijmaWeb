@@ -20,7 +20,7 @@
     max-width: 1500px;
 }
 
-.Twonav-container {
+/* .Twonav-container {
     display: flex;
     justify-content: start;
     align-items: center;
@@ -31,12 +31,12 @@
     height: 63px;
     font-size: 1.2rem;
     position: sticky;
-    /* top: 0; */
+    top: 0;
     color: #11366B;
-    /* opacity: 0.47; */
+    opacity: 0.47;
     position: fixed;
     z-index: 1;
-}
+} */
 
 #TwoNavText {
     margin-left: 13%;
