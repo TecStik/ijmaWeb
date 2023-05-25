@@ -6,7 +6,7 @@ import Header from "../../components/Header/Header"
 import './About.css'
 
 // import BlockcIcon from "../../assests/Imag1.png";
-// import reactlogo from "../../assests/Imag1.png";
+import seoConcept from "../../assests/seo-concept1.png";
 import bordaLabtop from "../../assests/Imag1.png";
 
 // import HomeCard from '../HomeCard/HomeCard'
@@ -43,13 +43,13 @@ const About = () => {
                             <p data-aos="fade-up" style={{ color: "#11366B" }}>About Operator
                             </p>
                             <br />
-                            <h2 data-aos="fade-up" data-aos-delay="400">TecStik - The team behind IJMA - is committed to introducing Islamic Banking Products like Musharika, Ijara, and Salam to The IJMA Platform, subsequently. With TecStik’s highly seasoned Islamic Bankers and Financial Consultants working with Pacific Financial Services - IJMA’s parent company ,it consistently develops innovative fintech applications for both mobile and desktop platforms</h2>
+                            <h5 data-aos="fade-up" data-aos-delay="400">TecStik is a technology subsidiary led by Pacific Financial Services: A company that has been operating globally for over 20 years. TecStik provides IT consulting, Digitalization, ITAS/SAAS (IT as a Service /Software as a Service), Artificial Intelligence, Data Sciences, Blockchain/Web3 and Cloud offerings. TecStik has assembled a team of seasoned finance professionals and technology specialists who provide clients with optimal solutions for their businesses. After meticulous research and development, TecStik regularly builds technology products for the valued clientele: Including Fintech, Medtech and Ecommerce solutions. These products are well-suited for enhanced productivity and convenience for users. With TecStik’s highly seasoned Islamic Bankers and Financial Consultants working with Pacific Financial Services -IJMA’s parent company -, consistently develops innovative fintech applications for both Mobile and Desktop Devices.</h5>
                             {/* <div data-aos="fade-up" data-aos-delay="800">
                                 <Link to="/about" class="btn-get-started">Meet TecStik</Link>
                             </div> */}
                         </div>
                         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left" data-aos-delay="200">
-                            <img src="https://i.ibb.co/GJSYYh4/laptop1.png"id="labtopImage"
+                            <img src={seoConcept} id="labtopImage"
                                 class="img-fluid animated" alt="" />
                         </div>
                     </div>
@@ -58,34 +58,51 @@ const About = () => {
 
             <div class="container">
                 <div class="section-title">
-                    <h2><span></span>Our Story.</h2>
+                    <h2 >Our Story.</h2>
                     <br />
                 </div>
             </div>
-            <div class="container">
-                <table>
-                    <tr>
-                        <td id="thHeadeing">2002</td>
-                        <td id="thHeadeingA">Pacific FInancial Services PVT. LTD. (PFSL) Incorporated - TecStik’s Parent Company</td>
-                    </tr>
-                    <tr>
-                        <td id="thHeadeing">2002-2010</td>
-                        <td id="thHeadeingA">PFSL provides Corporate Finance Advisory for global companies.</td>
-                    </tr>
-                    <tr>
-                        <td id="thHeadeing">2010</td>
-                        <td id="thHeadeingA">PFSL creates TecStik - a separate Fintech Arm to research, analyse and create solutions using Digital Finance.</td>
-                    </tr>
-                    <tr>
-                        <td id="thHeadeing">2011-2017</td>
-                        <td id="thHeadeingA">TecStik is commissioned to research, analyse and create solutions powered by Digital Finance.</td>
-                    </tr>
-                    <tr>
-                        <td id="thHeadeing">2017-2020</td>
-                        <td id="thHeadeingA">TecStik develops mobile and desktop applications catering to the expansive fintech market.</td>
-                    </tr>
-                </table>
+
+            <div class="container" id="aboutContain">
+                <br />
+                <div class="about-title">
+                    <h2>2002</h2>
+                    <br />
+                    <p>Pacific FInancial Services PVT. LTD. (PFSL) Incorporated - TecStik’s Parent Company</p>
+                </div>
+                <div class="about-title">
+                    <h2>2002-2010</h2>
+                    <br />
+                    <p>PFSL provides Corporate Finance Advisory for global companies.</p>
+                </div>
+                <div class="about-title">
+                    <h2>2010</h2>
+                    <br />
+                    <p>PFSL creates TecStik - a separate Fintech Arm to research, analyse and create solutions using Digital Finance.</p>
+                </div>
+                <div class="about-title">
+                    <h2>2011-2017</h2>
+                    <br />
+                    <p>TecStik is commissioned to research, analyse and create solutions powered by Digital Finance.</p>
+                </div>
+                <div class="about-title">
+                    <h2>2017-2020</h2>
+                    <br />
+                    <p>TecStik develops mobile and desktop applications catering to the expansive fintech market.</p>
+                </div>
+                <div class="about-title">
+                    <h2>2017-2020</h2>
+                    <br />
+                    <p>Using the latest Web 3.0 Technology, IJMA has been built by TecStik - a separate subsidiary outfit now, launches Hybrid Apps of Islamic Banking and Fintech.</p>
+                </div>
+                {/* <div class="about-title">
+                        <h2></h2>
+                        <br />
+                        <p></p>
+                    </div> */}
+
             </div>
+
             <br />
             <br />
             <br />

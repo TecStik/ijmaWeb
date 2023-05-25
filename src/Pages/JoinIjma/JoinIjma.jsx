@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../../components/Header/Header';
-import './JoinIjma.css'
+import './JoinIjma.css';
+import arabic from "../../assests/arabic.png";
 
 export default function JoinIjma() {
   return (
@@ -41,7 +42,7 @@ export default function JoinIjma() {
               </div>
             </div>
             <div class="col-lg-6 order-1 order-lg-2 text-center text-lg-start">
-              <img src="https://i.ibb.co/GJSYYh4/laptop1.png"class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="300" />
+              <img src={arabic} id="labtopImage" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="300" />
             </div>
           </div>
         </div>
