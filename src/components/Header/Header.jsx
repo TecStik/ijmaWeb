@@ -10,54 +10,19 @@ import Imag2 from '../../assests/Imag2.png'
 import { Slide, Zoom } from 'react-slideshow-image';
 import { Col, Row } from "antd";
 import Button from 'react-bootstrap/Button';
-
+import { Helmet } from "react-helmet";
 
 export default function Header() {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
 
-  const spanStyle = {
-    padding: '20px',
-    background: '#efefef',
-    color: '#000000'
-  }
 
-  const divStyle = {
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-    backgroundSize: 'cover',
-    height: '400px',
-
-
-  }
-  const slideImages = [
-    {
-      url: 'https://i.ibb.co/3mFDHHJ/laptop-01.png',
-      caption: 'Slide 1'
-    },
-    {
-      url: 'https://i.ibb.co/3mFDHHJ/laptop-01.png',
-      caption: 'Slide 2'
-    },
-    {
-      url: 'https://i.ibb.co/3mFDHHJ/laptop-01.png',
-      caption: 'Slide 3'
-    },
-  ];
-
-  const images = [
-    'https://i.ibb.co/3mFDHHJ/laptop-01.png',
-    'https://i.ibb.co/3mFDHHJ/laptop-01.png',
-    'https://i.ibb.co/3mFDHHJ/laptop-01.png',
-    'https://i.ibb.co/3mFDHHJ/laptop-01.png',
-    // 'images/slide_6.jpg',
-    // 'images/slide_7.jpg'
-  ];
   return (
     <>
       {/* NAvbar */}
-
+      <Helmet>
+        <title>{window.location.pathname.slice(1) === "" ? "IJMA-Home" : window.location.pathname.slice(1)}</title>
+      </Helmet>
       <nav className="navbar">
         <div className="nav-container">
           <Link exact to="/" className="nav-logo">
@@ -82,7 +47,7 @@ export default function Header() {
             <li className="nav-item">
               <Link
                 exact
-                to="/about"
+                to="/IJMA-About"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}
@@ -93,7 +58,7 @@ export default function Header() {
             <li className="nav-item">
               <Link
                 exact
-                to="/joinIjma"
+                to="/IJMA-Join"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}
@@ -117,7 +82,7 @@ export default function Header() {
                   <ul>
                     <><Link to="/" >Our Accreditation</Link></>
                     <> <Link to="/">Our Story</Link></>
-                    <> <Link to="/OurTeam">Our team</Link></>
+                    <> <Link to="/IJMA-OurTeam">Our team</Link></>
                   </ul>
 
                 </div>
@@ -126,7 +91,7 @@ export default function Header() {
             <li className="nav-item">
               <Link
                 exact
-                to="/contact"
+                to="/IJMA-Contact"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}

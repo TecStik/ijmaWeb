@@ -1,15 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { useSearchParams } from "react-router-dom";
 import { Link } from "react-router-dom";
-// import Footer from "../Footer/Footer"
 import Header from "../../components/Header/Header"
-import './About.css'
-
-// import BlockcIcon from "../../assests/Imag1.png";
 import seoConcept from "../../assests/seo-concept1.png";
-import bordaLabtop from "../../assests/Imag1.png";
-
-// import HomeCard from '../HomeCard/HomeCard'
+import './About.css'
+import Footer from "../../components/Footer/Footer";
 
 const About = () => {
 
@@ -102,11 +97,11 @@ const About = () => {
                     </div> */}
 
             </div>
-
             <br />
             <br />
             <br />
             <br />
+            <Footer />
         </div>
     )
 }

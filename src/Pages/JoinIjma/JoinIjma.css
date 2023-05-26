@@ -25,7 +25,7 @@
   
 
   #JoinIjma .animated {
-    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+    /* animation: up-down 2s ease-in-out infinite alternate-reverse both; */
   }
   
   @media (min-width: 1024px) {
@@ -80,7 +80,7 @@
     }
   }
   
-  @-webkit-keyframes up-down {
+  /* @-webkit-keyframes up-down {
     0% {
       transform: translateY(10px);
     }
@@ -99,4 +99,4 @@
       transform: translateY(-10px);
     }
   }
-  
+   */

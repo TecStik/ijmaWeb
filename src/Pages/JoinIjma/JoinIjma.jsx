@@ -2,6 +2,9 @@ import React from 'react';
 import Header from '../../components/Header/Header';
 import './JoinIjma.css';
 import arabic from "../../assests/arabic.png";
+import Footer from "../../components/Footer/Footer";
+
+
 
 export default function JoinIjma() {
   return (
@@ -47,6 +50,17 @@ export default function JoinIjma() {
           </div>
         </div>
       </section>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <Footer />
+
     </div>
   )
 }

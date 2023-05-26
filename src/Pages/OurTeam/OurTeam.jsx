@@ -3,7 +3,8 @@ import React, { useState } from "react";
 import smartphone from '../../assests/smartphone.png'
 import Imag2 from '../../assests/Imag2.png'
 import { Slide, Zoom } from 'react-slideshow-image';
-import './OurTeam.css'
+import './OurTeam.css';
+import Footer from "../../components/Footer/Footer";
 
 export default function OurTeam() {
     return (
@@ -122,6 +123,9 @@ export default function OurTeam() {
                 </div>
 
             </section>
+
+            <br />
+            <Footer />
         </div >
     )
 }

@@ -2,6 +2,7 @@ import Header from '../../components/Header/Header';
 import { message, Spin } from 'antd';
 import map from "../../assests/map.PNG";
 import React, { useRef, useState, useEffect } from "react";
+import Footer from "../../components/Footer/Footer";
 import './ContactUS.css'
 
 export default function ContactUS() {
@@ -159,6 +160,7 @@ export default function ContactUS() {
       <br />
       <br />
       <br />
+      <Footer />
     </div>
   )
 }
