@@ -85,6 +85,12 @@
   }
 } */
 
+.nav-logo:hover {
+  color: white;
+}
+.nav-links:hover {
+  color: white;
+}
 
 .navbar {
   background-color: #11366B;
@@ -120,7 +126,7 @@
   font-size: 1.2rem;
   /* position: sticky; */
   /* top: 0; */
-  color: #11366B;
+  /* color: #11366B; */
   /* opacity: 0.47; */
   /* position: fixed; */
   z-index: 1;
@@ -192,69 +198,69 @@
 @media screen and (max-width: 1024px) {
 
   #logo {
-      background-color: "red";
-      height: 150px;
-      margin-left: -8%;
-      margin-bottom: -17px;
+    background-color: "red";
+    height: 150px;
+    margin-left: -8%;
+    margin-bottom: -17px;
   }
 
 }
 
 @media screen and (max-width: 960px) {
   .nav-menu {
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      border-top: 1pxsolid #fff;
-      position: absolute;
-      top: 129px;
-      left: -110%;
-      opacity: 1;
-      transition: all 0.5s ease;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-top: 1pxsolid #fff;
+    position: absolute;
+    top: 129px;
+    left: -110%;
+    opacity: 1;
+    transition: all 0.5s ease;
   }
 
   .nav-menu.active {
-      background: #11366B;
-      left: 0px;
-      opacity: 1;
-      transition: all 0.5s ease;
-      z-index: 1;
+    background: #11366B;
+    left: 0px;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
   }
 
   .nav-item .active {
-      color: white;
-      border: none;
+    color: white;
+    border: none;
   }
 
   .nav-links {
-      padding: 1.5rem;
-      width: 100%;
-      display: table;
+    padding: 1.5rem;
+    width: 100%;
+    display: table;
   }
 
   .nav-icon {
-      display: block;
-      position: absolute;
-      top: 0;
-      right: 0;
-      transform: translate(-100%, 60%);
-      font-size: 1.8rem;
-      cursor: pointer;
-      color: white;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: white;
   }
 
   #logo {
-      height: 150px;
-      margin-left: -12%;
-      margin-bottom: -17px;
+    height: 150px;
+    margin-left: -12%;
+    margin-bottom: -17px;
   }
 
   #TwoNavText {
-      color: #11366B;
-      justify-content: right;
-      align-items: right;
-      text-align: right;
-      margin-left: 28%;
+    color: #11366B;
+    justify-content: right;
+    align-items: right;
+    text-align: right;
+    margin-left: 28%;
   }
 }
 
@@ -311,36 +317,36 @@
 }
 
 .hero .btn-watch-video {
-font-size: 16px;
-transition: 0.5s;
-margin-left: 25px;
-color: var(--font-secondary);
-font-weight: 600;
+  font-size: 16px;
+  transition: 0.5s;
+  margin-left: 25px;
+  color: var(--font-secondary);
+  font-weight: 600;
 }
 
 .hero .btn-watch-video i {
-color: var(--color-primary);
-font-size: 32px;
-transition: 0.3s;
-line-height: 0;
-margin-right: 8px;
+  color: var(--color-primary);
+  font-size: 32px;
+  transition: 0.3s;
+  line-height: 0;
+  margin-right: 8px;
 }
 
 .hero .btn-watch-video:hover {
-color: var(--color-primary);
+  color: var(--color-primary);
 }
 
 .hero .btn-watch-video:hover i {
-color: rgba(206, 18, 18, 0.8);
+  color: rgba(206, 18, 18, 0.8);
 }
 
 @media (max-width: 640px) {
   .hero h2 {
-      font-size: 36px;
+    font-size: 36px;
   }
 
   .hero {
-      margin-top: 25%;
+    margin-top: 25%;
   }
 
   /* .hero .btn-get-started,
@@ -449,4 +455,5 @@ color: rgba(206, 18, 18, 0.8);
   color: #fff;
   text-decoration: none;
 }
+
 /*  */

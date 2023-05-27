@@ -92,11 +92,23 @@ h3 {
   }
 }
 
+#slideImage{
+  margin-left: 15%;
+}
+#ImgeSize{
+width: 70%;
+}
 @media (max-width: 768px) {
   #hero {
     margin-top: 20px;
   }
 
+  #slideImage{
+    margin-left: 0%;
+  }
+  #ImgeSize{
+    width: 100%;
+    }
   #hero h1 {
     font-size: 28px;
     line-height: 36px;

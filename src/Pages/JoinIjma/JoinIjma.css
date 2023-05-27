@@ -24,9 +24,9 @@
   }
   
 
-  #JoinIjma .animated {
-    /* animation: up-down 2s ease-in-out infinite alternate-reverse both; */
-  }
+  /* #JoinIjma .animated {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+  } */
   
   @media (min-width: 1024px) {
     #JoinIjma {

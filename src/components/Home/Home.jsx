@@ -91,7 +91,7 @@ function Home() {
                 <br />
                 <Slide>
                   {
-                    images.map((each, index) => <img key={index} style={{ width: "80%", alignItems: "center", marginLeft: "10%" }} src={each} />)
+                    images.map((each, index) => <img key={index} style={{ width: "70%", alignItems: "center"}} id="slideImage" src={each} />)
                   }
                 </Slide>
               </div>
@@ -106,7 +106,7 @@ function Home() {
 
             <div class="row gx-0">
               <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
-                <img src={Imag2} class="img-fluid" alt="" />
+                <img src={Imag2} class="img-fluid" alt=""id="ImgeSize" />
               </div>
 
               <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
@@ -152,7 +152,7 @@ function Home() {
 
             <div class="row gx-0">
               <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
-                <img src={mobileIcon} class="img-fluid" alt="" />
+                <img src={mobileIcon} class="img-fluid" alt="" id="ImgeSize"/>
               </div>
 
               <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
