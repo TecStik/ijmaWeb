@@ -68,7 +68,7 @@ export default function OurTeam() {
 
                         <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
                             <div class="content">
-                                <h2>Mr. Bilal Saleem - Chief Executive, MBA</h2>
+                                <h2>Mr. Bilal Saleem (BBA, MBA) - Chief Executive</h2>
                                 <br />
                                 <h5>Bilal Saleem is the Director of TecStik, bringing you IJMA. His extensive expertise in Banking and Finance leading Pacific Financial Services Pvt. Ltd, has allowed TecStik to make diligent efforts for rectifying Islamic Banking.</h5>
                                 <br />
@@ -92,7 +92,7 @@ export default function OurTeam() {
                     <div class="row gx-0">
                         <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
                         <div class="content">
-                                <h2>Mr. Hammad Ahmed, CFA, CMA, IFQ as Product Manager</h2>
+                                <h2>Mr. Hammad Ahmed (CFA, CMA, IFQ)  as Product Manager</h2>
                                 <br />
                                 <h5>IJMA was the brainchild of TecStik’s Partner - Muhammad Hammad Ahmed. Over 16 years of experience in Corporate Finance, Commercial Banking, Investment Banking ,Islamic Finance and Fintech.</h5>
                                 <br />
@@ -112,7 +112,7 @@ export default function OurTeam() {
                           <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200" style={{marginTop:"-4.5%"}}>
                             
                             <div class="content">
-                                <h2>Mr. Azfar Saleem - Marketing Director, Bachelor’s with Honors</h2>
+                                <h2>Mr. Azfar Saleem (Bachelor’s with Honors) - Marketing Director</h2>
                                 <br />
                                 <h5>Creativity is a million tiny acts of daily practice, those with strategy and discipline. Azfar - TecStik and IJMA’s Marketing Director and Partner creates engaging strategies to popularize the concept powering IJMA with The Technology that drives it.</h5>
                                 <br />

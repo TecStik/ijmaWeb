@@ -50,7 +50,7 @@ export default function Footer() {
                 <h6 class="text-uppercase fw-bold text-white">Ijma</h6>
                 <hr class="mb-4 mt-0 d-inline-block mx-auto" style={{ background: "#7c4dff", height: 2, width: 60 }} />
                 <p>
-                  The lack of complete ownership transfer and the burden of manual documentation can present significant challenges. With IJMA, the transfer of risk and ownership is genuine, ensuring compliance with Sharia principles.
+                The lack of complete ownership transfer and the burden of manual documentation can present significant challenges. With IJMA, the transfer of risk and ownership is genuine, ensuring compliance with Sharia principles.
                 </p>
               </div>
 
@@ -64,39 +64,37 @@ export default function Footer() {
                 />
                 <p>
                   {/* <Link to="/product?tab=6" class="text-white"> */}
-                    Improved time and cost efficiency.
+                  Enhanced Efficiency
                   {/* </Link> */}
                 </p>
                 <p>
                   {/* <Link to="/webAndMobile?tab=6" class="text-white"> */}
 
-                    Improved Sharia Compliance with fewer penalties.
+                    Improved Sharia Compliance.
                   {/* </Link> */}
                 </p>
                 <p>
                   {/* <Link to="/webAndMobile?tab=6" class="text-white"> */}
 
-                    Reduced Monitoring  requirement and associated cost.
+                    Lowered Monitoring Costs
                   {/* </Link> */}
                 </p>
                 <p>
                   {/* <Link to="/product?tab=6" class="text-white"> */}
-                    Reduced regulatory reporting or filing.
+                    Streamlined Regulatory Reporting.
                   {/* </Link> */}
                 </p>
                 <p>
                   {/* <Link to="/product?tab=6" class="text-white"> */}
-                    Cost savings can be partially passed-through to consumers
+                  Partial cost-savings passed to customers.
                   {/* </Link> */}
                 </p>
+               
                 <p>
                   {/* <Link to="/product?tab=6" class="text-white"> */}
-                    Addresses the key criticism  on IBFI  operations; taking after  conventional banks.
-                  {/* </Link> */}
-                </p>
-                <p>
-                  {/* <Link to="/product?tab=6" class="text-white"> */}
-                    Specially for Islamic Banking windows to segregate themselves from conventional banking
+                    
+
+                  Islamic Banking segregates from conventional banking
                   {/* </Link> */}
                 </p>
               </div>
@@ -146,7 +144,7 @@ export default function Footer() {
                 />
                 <p>
                   <i class="fas fa-home mr-3"></i> Business
-                  Centre, II Chundrigar Road
+                  Centre, II Chundrigar Road, Karachi, Sindh, Pakistan
                 </p>
                 <p>
                   <i class="fas fa-envelope mr-3"></i>

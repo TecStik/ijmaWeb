@@ -72,7 +72,7 @@ function Home() {
                 <p data-aos="fade-up" data-aos-delay="100" style={{ color: "#11366B" }}>Embrace IJMA for Shariah-Compliant Banking</p>
                 <br />
                 <br />
-                <h2 data-aos="fade-up" style={{ color: "#11366B" }}>Harnessing Blockchain for Sharia-Compliant Mortgage and Loan Options</h2>
+                <h2 data-aos="fade-up" style={{ color: "#11366B" }}>Unleash Technology for Sharia-Compliant Financial Solutions</h2>
 
                 <div class="content">
                   <ul style={{ listStyleType: "none" }}>
