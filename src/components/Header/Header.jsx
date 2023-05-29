@@ -26,10 +26,9 @@ export default function Header() {
       <nav className="navbar">
         <div className="nav-container">
           <Link exact to="/" className="nav-logo">
-            <img src={Logo} alt="" id="logo" height={170} style={{ marginTop: "6%" }} />
-
-            IJMA
-            {/* <i className="fas fa-arrow-down"></i> */}
+            <img src={Logo} alt="" id="logo" height={170} style={{ marginTop: "7%" }} />
+            <span>IJMA</span>
+            {/* <i className="fas fa-arrow-down">IJMA</i> */}
           </Link>
 
           <ul className={click ? "nav-menu active" : "nav-menu"}>
@@ -54,6 +53,16 @@ export default function Header() {
               >
                 About Operator
               </Link>
+              {/* <div class="dropdown">
+                <div id="services">About Operator<i className="fa fa-caret-down"></i></div>
+                <div class="dropdown-Industries">
+                  <>
+                    <> <Link to="/">Our Story</Link></>
+                    <> <Link to="/IJMA-OurTeam">Our team</Link></>
+                  </>
+
+                </div>
+              </div> */}
             </li>
             <li className="nav-item">
               <Link
@@ -79,11 +88,10 @@ export default function Header() {
               <div class="dropdown">
                 <div id="services">Our Platform <i className="fa fa-caret-down"></i></div>
                 <div class="dropdown-Industries">
-                  <ul>
+                  <>
                     <><Link to="/" >Our Accreditation</Link></>
-                    <> <Link to="/">Our Story</Link></>
                     <> <Link to="/IJMA-OurTeam">Our team</Link></>
-                  </ul>
+                  </>
 
                 </div>
               </div>

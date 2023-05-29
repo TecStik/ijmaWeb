@@ -50,7 +50,7 @@ export default function Footer() {
                 <h6 class="text-uppercase fw-bold text-white">Ijma</h6>
                 <hr class="mb-4 mt-0 d-inline-block mx-auto" style={{ background: "#7c4dff", height: 2, width: 60 }} />
                 <p>
-                The lack of complete ownership transfer and the burden of manual documentation can present significant challenges. With IJMA, the transfer of risk and ownership is genuine, ensuring compliance with Sharia principles.
+                  The lack of complete ownership transfer and the burden of manual documentation can present significant challenges. With IJMA, the transfer of risk and ownership is genuine, ensuring compliance with Sharia principles.
                 </p>
               </div>
 
@@ -64,37 +64,29 @@ export default function Footer() {
                 />
                 <p>
                   {/* <Link to="/product?tab=6" class="text-white"> */}
-                  Enhanced Efficiency
+                  Enhanced efficiency
                   {/* </Link> */}
                 </p>
                 <p>
                   {/* <Link to="/webAndMobile?tab=6" class="text-white"> */}
 
-                    Improved Sharia Compliance.
+                  Improved Shariah-Compliance
                   {/* </Link> */}
                 </p>
                 <p>
                   {/* <Link to="/webAndMobile?tab=6" class="text-white"> */}
 
-                    Lowered Monitoring Costs
+                  Lowered Monitoring Costs
                   {/* </Link> */}
                 </p>
                 <p>
                   {/* <Link to="/product?tab=6" class="text-white"> */}
-                    Streamlined Regulatory Reporting.
+                  Streamlined Regulatory Reporting
                   {/* </Link> */}
                 </p>
                 <p>
                   {/* <Link to="/product?tab=6" class="text-white"> */}
-                  Partial cost-savings passed to customers.
-                  {/* </Link> */}
-                </p>
-               
-                <p>
-                  {/* <Link to="/product?tab=6" class="text-white"> */}
-                    
-
-                  Islamic Banking segregates from conventional banking
+                  Cost-Savings Partially Passed to Customers
                   {/* </Link> */}
                 </p>
               </div>
@@ -108,23 +100,23 @@ export default function Footer() {
                 />
                 <p>
                   <Link to="/?tab=6" class="text-white">
-                  Our Accreditation
+                    Our Accreditation
                   </Link>
                   {/* <a href={() => false} class="text-white">
                     Blockchain Development
                   </a> */}
                 </p>
                 <p>
-                  <Link to="/?tab=6" class="text-white">
-                  Our Story
-                  </Link>
+                  {/* <Link to="/IJMA-About?tab=6" class="text-white">
+            Our Story
+                  </Link> */}
                   {/* <a href={() => false} class="text-white">
                     Full Stack Development
                   </a> */}
                 </p>
                 <p>
                   <Link to="/IJMA-OurTeam?tab=6" class="text-white">
-                  Our Team
+                    Our Team
                   </Link>
                 </p>
                 {/* <p>
@@ -143,8 +135,7 @@ export default function Footer() {
                   style={{ background: "#7c4dff", height: 2, width: 60 }}
                 />
                 <p>
-                  <i class="fas fa-home mr-3"></i> Business
-                  Centre, II Chundrigar Road, Karachi, Sindh, Pakistan
+                  <i class="fas fa-home mr-3"></i>  Business Centre, II Chundrigar Road
                 </p>
                 <p>
                   <i class="fas fa-envelope mr-3"></i>
@@ -163,7 +154,7 @@ export default function Footer() {
           class="text-center p-3"
           style={{ background: "rgba(0, 0, 0, 0.2)" }}
         >
-          © 2022 Copyright :
+          © 2023 Copyright :
           <a class="text-white ml-2" href={() => false}>
             TecStik.com
           </a>

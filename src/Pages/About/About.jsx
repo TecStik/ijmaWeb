@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useSearchParams } from "react-router-dom";
 import { Link } from "react-router-dom";
 import Header from "../../components/Header/Header"
-import seoConcept from "../../assests/seo-concept1.png";
+import kollectltLogo from "../../assests/image.png";
 import './About.css'
 import Footer from "../../components/Footer/Footer";
 
@@ -27,31 +27,29 @@ const About = () => {
 
     return (
 
+        <>
 
+            <div id="NewHome">
+                <Header />
+                <section id="hero" class="d-flex align-items-center">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
+                                <p data-aos="fade-up" style={{ color: "#11366B" }}>About Operator
+                                </p>
+                                <br />
+                                <h6 data-aos="fade-up" data-aos-delay="400">TecStik is a technology subsidiary led by Pacific Financial Services: A company that has been operating globally for over 20 years. TecStik provides IT consulting, Digitalization, ITAS/SAAS (IT as a Service /Software as a Service), Artificial Intelligence, Data Sciences, Blockchain/Web3 and Cloud offerings. TecStik has assembled a team of seasoned finance professionals and technology specialists who provide clients with optimal solutions for their businesses. After meticulous research and development, TecStik regularly builds technology products for the valued clientele: Including Fintech, Medtech and Ecommerce solutions. These products are well-suited for enhanced productivity and convenience for users. With TecStik’s highly seasoned Islamic Bankers and Financial Consultants working with Pacific Financial Services -IJMA’s parent company -, consistently develops innovative fintech applications for both Mobile and Desktop Devices.</h6>
 
-        <div id="NewHome">
-            <Header />
-            <section id="hero" class="d-flex align-items-center" style={{ marginBottom: "13%" }}>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
-                            <p data-aos="fade-up" style={{ color: "#11366B" }}>About Operator
-                            </p>
-                            <br />
-                            <h5 data-aos="fade-up" data-aos-delay="400">TecStik is a technology subsidiary led by Pacific Financial Services: A company that has been operating globally for over 20 years. TecStik provides IT consulting, Digitalization, ITAS/SAAS (IT as a Service /Software as a Service), Artificial Intelligence, Data Sciences, Blockchain/Web3 and Cloud offerings. TecStik has assembled a team of seasoned finance professionals and technology specialists who provide clients with optimal solutions for their businesses. After meticulous research and development, TecStik regularly builds technology products for the valued clientele: Including Fintech, Medtech and Ecommerce solutions. These products are well-suited for enhanced productivity and convenience for users. With TecStik’s highly seasoned Islamic Bankers and Financial Consultants working with Pacific Financial Services -IJMA’s parent company -, consistently develops innovative fintech applications for both Mobile and Desktop Devices.</h5>
-                            {/* <div data-aos="fade-up" data-aos-delay="800">
-                                <Link to="/about" class="btn-get-started">Meet TecStik</Link>
-                            </div> */}
-                        </div>
-                        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left" data-aos-delay="200">
-                            <img src={seoConcept} id="labtopImage"
-                                class="img-fluid" alt="" />
+                            </div>
+                            <div class="col-lg-6 order-1 order-lg-2 about-img" data-aos="fade-left" data-aos-delay="200">
+                                <img src={kollectltLogo} id="labtopImage" class="img-fluid" alt="" />
+                            </div>
                         </div>
                     </div>
-                </div>
-            </section>
+                </section>
 
-            <div class="container">
+            </div>
+            <div id="AboutStore" >
                 <div class="section-title">
                     <h2 >Our Story.</h2>
                     <br />
@@ -102,7 +100,7 @@ const About = () => {
             <br />
             <br />
             <Footer />
-        </div>
+        </>
     )
 }
 

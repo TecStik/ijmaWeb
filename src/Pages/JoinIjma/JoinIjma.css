@@ -6,7 +6,7 @@
     /* margin-top: -2%; */
     width: 100%;
     height: 70vh;
-    margin-top: 5%;
+    margin-top: 15%;
   }
   
   #JoinIjma p {
@@ -23,7 +23,9 @@
     /* font-size: 20px; */
   }
   
-
+  #Ijmafooter{
+    margin-top: 20%;
+  }
   /* #JoinIjma .animated {
     animation: up-down 2s ease-in-out infinite alternate-reverse both;
   } */
@@ -31,6 +33,9 @@
   @media (min-width: 1024px) {
     #JoinIjma {
       background-attachment: fixed;
+    }
+    #Ijmafooter{
+      margin-top: 20%;
     }
   }
   
@@ -55,7 +60,7 @@
   
   @media (max-width: 768px) {
     #JoinIjma {
-      margin-top: 20px;
+      margin-top: 50%;
     }
   
     #JoinIjma h1 {
@@ -72,9 +77,15 @@
     #JoinIjma .JoinIjma-img img {
       width: 70%;
     }
+    #Ijmafooter{
+      margin-top: 140%;
+    }
   }
   
   @media (max-width: 575px) {
+    #Ijmafooter{
+      margin-top: 100%;
+    }
     #JoinIjma .JoinIjma-img img {
       width: 80%;
     }

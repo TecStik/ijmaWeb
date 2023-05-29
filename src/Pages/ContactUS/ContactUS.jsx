@@ -10,13 +10,12 @@ export default function ContactUS() {
 
   const [loading, setloading] = useState(true);
   function maplink() {
-    window.open("https://goo.gl/maps/GX3euzu28RpAkaPy6", "_blank");
+    window.open("https://goo.gl/maps/AhT2xjDLpdB3juyy8", "_blank");
   }
 
   return (
     <div>
       <Header />
-
 
       <br />
       <br />
