@@ -6,8 +6,9 @@ import mobileIcon from '../../assests/mobileIcon.png'
 import { Slide, Zoom } from 'react-slideshow-image';
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
+import ImageSlider from "./SliderPAge";
 
-import makeCarousel from "react-reveal/makeCarousel";
+// import makeCarousel from "react-reveal/makeCarousel";
 // import Slide from "react-reveal/Slide";
 import styled, { css } from "styled-components";
 
@@ -15,77 +16,87 @@ function Home() {
 
   let height = "150px";
 
-  const Container = styled.div`
-border: 1px solid red;
-position: relative;
-overflow: hidden;
-width: 100%;
-`;
+  //   const Container = styled.div`
+  // border: 1px solid red;
+  // position: relative;
+  // overflow: hidden;
+  // width: 100%;
+  // `;
 
-  const Children = styled.div`
-width: 100%;
-position: relative;
-height: ${height};
-`;
+  //   const Children = styled.div`
+  // width: 100%;
+  // position: relative;
+  // height: ${height};
+  // `;
 
-  const Arrow = styled.div`
-text-shadow: 1px 1px 1px #fff;
-z-index: 100;
-line-height: ${height};
-text-align: center;
-position: absolute;
-top: 0;
-width: 10%;
-font-size: 3em;
-cursor: pointer;
-user-select: none;
-${props =>
-      props.right
-        ? css`
-        left: 90%;
-      `
-        : css`
-        left: 0%;
-      `}
-`;
+  //   const Arrow = styled.div`
+  // text-shadow: 1px 1px 1px #fff;
+  // z-index: 100;
+  // line-height: ${height};
+  // text-align: center;
+  // position: absolute;
+  // top: 0;
+  // width: 10%;
+  // font-size: 3em;
+  // cursor: pointer;
+  // user-select: none;
+  // ${props =>
+  //       props.right
+  //         ? css`
+  //         left: 90%;
+  //       `
+  //         : css`
+  //         left: 0%;
+  //       `}
+  // `;
 
-  const Dot = styled.span`
-font-size: 1.5em;
-cursor: pointer;
-text-shadow: 1px 1px 1px #fff;
-user-select: none;
-`;
+  //   const Dot = styled.span`
+  // font-size: 1.5em;
+  // cursor: pointer;
+  // text-shadow: 1px 1px 1px #fff;
+  // user-select: none;
+  // `;
 
-  const Dots = styled.span`
-text-align: center;
-width: 100%;
-z-index: 100;
-`;
+  //   const Dots = styled.span`
+  // text-align: center;
+  // width: 100%;
+  // z-index: 100;
+  // `;
 
-  const CarouselUI = ({ position, total, handleClick, children }) => (
-    <Container>
-      <Children>
-        {children}
-        <Arrow onClick={handleClick} data-position={position - 1}>
-          {"<"}
-        </Arrow>
-        <Arrow right onClick={handleClick} data-position={position + 1}>
-          {">"}
-        </Arrow>
-      </Children>
-      <Dots>
-        {Array(...Array(total)).map((val, index) => (
-          <Dot key={index} onClick={handleClick} data-position={index}>
-            {index === position ? "● " : "○ "}
-          </Dot>
-        ))}
-      </Dots>
-    </Container>
-  );
+  //   const CarouselUI = ({ position, total, handleClick, children }) => (
+  //     <Container>
+  //       <Children>
+  //         {children}
+  //         <Arrow onClick={handleClick} data-position={position - 1}>
+  //           {"<"}
+  //         </Arrow>
+  //         <Arrow right onClick={handleClick} data-position={position + 1}>
+  //           {">"}
+  //         </Arrow>
+  //       </Children>
+  //       <Dots>
+  //         {Array(...Array(total)).map((val, index) => (
+  //           <Dot key={index} onClick={handleClick} data-position={index}>
+  //             {index === position ? "● " : "○ "}
+  //           </Dot>
+  //         ))}
+  //       </Dots>
+  //     </Container>
+  //   );
 
-  const Carousel = makeCarousel(CarouselUI);
+  //   const Carousel = makeCarousel(CarouselUI);
 
-
+  const slides = [
+    { url: "https://i.ibb.co/phKFyrw/laptop-1.png", title: "beach" },
+    { url: "https://i.ibb.co/Jdg09c9/laptop-2-01-01.png", title: "boat" },
+    { url: "https://i.ibb.co/phKFyrw/laptop-1.png", title: "beach" },
+    { url: "https://i.ibb.co/Jdg09c9/laptop-2-01-01.png", title: "boat" },
+    { url: "https://i.ibb.co/phKFyrw/laptop-1.png", title: "beach" },
+    { url: "https://i.ibb.co/Jdg09c9/laptop-2-01-01.png", title: "boat" },
+    { url: "https://i.ibb.co/phKFyrw/laptop-1.png", title: "beach" },
+    { url: "https://i.ibb.co/Jdg09c9/laptop-2-01-01.png", title: "boat" },
+    { url: "https://i.ibb.co/phKFyrw/laptop-1.png", title: "beach" },
+  ];
   const images = [
     'https://i.ibb.co/phKFyrw/laptop-1.png',
     'https://i.ibb.co/Jdg09c9/laptop-2-01-01.png',
@@ -103,7 +114,12 @@ z-index: 100;
     // 'images/slide_7.jpg'
   ];
 
-
+  const containerStyles = {
+    width: "65%",
+    height: "280px",
+    margin: "0 auto",
+    
+  };
   return (
     <>
       <div>
@@ -155,6 +171,9 @@ z-index: 100;
                     </div>
                   </Slide>
                 </Carousel> */}
+                {/* <div style={containerStyles}>
+                </div> */}
+                {/* <ImageSlider slides={slides} parentWidth={400} /> */}
                 <Slide>
                   {
                     images.map((each, index) => <img key={index} style={{ width: "70%", alignItems: "center" }} id="slideImage" src={each} />)
@@ -259,28 +278,6 @@ z-index: 100;
           </div>
         </div> */}
 
-
-
-
-
-
-        {/* <div class="container">
-          <div class="section-title">
-            <h2>Experience the Future of Islamic Banking Today</h2>
-            <br />
-            <p><br />
-            </p>
-          </div>
-        </div> */}
-
-        {/* <div class="container">
-          <div class="section-title">
-            <h2><span></span>IJMA is aligned with the <br /> vision of digitalized Islamic Banking.</h2>
-            <br />
-            <p>By leveraging our platform, you can complement the country's digital transformation efforts. Embrace the possibility of integrating with the Raast network and stay ahead of the curve.
-            </p>
-          </div>
-        </div> */}
 
         {/*  */}
         <Footer />

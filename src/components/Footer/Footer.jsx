@@ -99,31 +99,25 @@ export default function Footer() {
                   style={{ background: "#7c4dff", height: 2, width: 60 }}
                 />
                 <p>
-                  <Link to="/?tab=6" class="text-white">
-                    Our Accreditation
+                  <Link to="/IJMA-About?tab=6" class="text-white">
+                    About Operator
                   </Link>
-                  {/* <a href={() => false} class="text-white">
-                    Blockchain Development
-                  </a> */}
                 </p>
                 <p>
-                  {/* <Link to="/IJMA-About?tab=6" class="text-white">
-            Our Story
-                  </Link> */}
-                  {/* <a href={() => false} class="text-white">
-                    Full Stack Development
-                  </a> */}
+                  <Link to="/IJMA-Join?tab=6" class="text-white">
+                    Why join IJMA?
+                  </Link>
                 </p>
                 <p>
                   <Link to="/IJMA-OurTeam?tab=6" class="text-white">
                     Our Team
                   </Link>
                 </p>
-                {/* <p>
-                  <Link to="/cloud?tab=6" class="text-white">
-                    Cloud Computing
+                <p>
+                  <Link to="/IJMA-Contact?tab=6" class="text-white">
+                    Contact Us
                   </Link>
-                </p> */}
+                </p>
               </div>
 
 

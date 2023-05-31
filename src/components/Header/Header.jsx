@@ -89,7 +89,7 @@ export default function Header() {
                 <div id="services">Our Platform <i className="fa fa-caret-down"></i></div>
                 <div class="dropdown-Industries">
                   <>
-                    <><Link to="/" >Our Accreditation</Link></>
+                    {/* <><Link to="/" >Our Accreditation</Link></> */}
                     <> <Link to="/IJMA-OurTeam">Our team</Link></>
                   </>
 
@@ -128,74 +128,6 @@ export default function Header() {
         </div>
       </nav>
 
-      {/* Home */}
-
-
-
-      {/* <section id="features" class="features">
-
-        <div class="container" data-aos="fade-up">
-
-          <header class="section-header">
-            <p>Our Platform</p>
-            <h2>Our Platform</h2>
-          </header>
-
-          <div class="row">
-            <div class="col-lg-6">
-              <img src={smartphone} class="img-fluid" alt="" />
-            </div>
-            <div class="col-lg-6 mt-5 mt-lg-0 d-flex">
-              <div class="row align-self-center gy-4">
-                <p>As you can tell by the slideshow on The Monitor Above, IJMA enables the digitization of Islamic Banking with Transparency and Security. IJMA is a permissioned Blockchain network  of Islamic Financial Institutions (IFIs).</p>
-
-                <div class="col-md-6" data-aos="zoom-out" data-aos-delay="200">
-                  <div class="feature-box d-flex align-items-center">
-                    <i class="fa fa-check"></i>
-                    <h3><b>IJMA</b><p> provides more efficient transactional processes</p></h3>
-                  </div>
-                </div>
-
-                <div class="col-md-6" data-aos="zoom-out" data-aos-delay="300">
-                  <div class="feature-box d-flex align-items-center">
-                    <i class="fa fa-check"></i>
-                    <h3><b>IJMA</b><p>addresses  the key issues of Legacy Systems and  Procedures</p></h3>
-                  </div>
-                </div>
-
-                <div class="col-md-6" data-aos="zoom-out" data-aos-delay="400">
-                  <div class="feature-box d-flex align-items-center">
-                    <i class="fa fa-check"></i>
-                    <h3><b>IJMA</b><p>makes IFIs  increasingly competitive  for consumers.</p></h3>
-                  </div>
-                </div>
-
-                <div class="col-md-6" data-aos="zoom-out" data-aos-delay="500">
-                  <div class="feature-box d-flex align-items-center">
-                    <i class="fa fa-check"></i>
-                    <h3><b>IJMA</b><p></p></h3>
-                  </div>
-                </div>
-
-                <div class="col-md-6" data-aos="zoom-out" data-aos-delay="600">
-                  <div class="feature-box d-flex align-items-center">
-                    <i class="fa fa-check"></i>
-                    <h3><b>IJMA</b><p></p></h3>
-                  </div>
-                </div>
-
-                <div class="col-md-6" data-aos="zoom-out" data-aos-delay="700">
-                  <div class="feature-box d-flex align-items-center">
-                    <i class="fa fa-check"></i>
-                    <h3><b>IJMA</b><p></p></h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </section> */}
 
       <br />
       <br />
