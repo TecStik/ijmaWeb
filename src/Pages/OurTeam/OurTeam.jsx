@@ -38,7 +38,7 @@ export default function OurTeam() {
                 </div>
             </section>
 
-            <section id="Ourteam" class="Ourteam">
+            <section id="Ourteam" class="Ourteam" >
                 <div class="container" data-aos="fade-up">
 
                     <div class="row gx-0">
@@ -82,12 +82,12 @@ export default function OurTeam() {
 
             </section>
 
-            <section id="Ourteam" class="Ourteam">
+            <section id="Ourteam" class="Ourteam" >
                 <div class="container" data-aos="fade-up">
 
                     <div class="row gx-0 ">
                         <div class="col-lg-6 d-flex flex-column justify-content-center mt-0 mb-0" data-aos="fade-up" data-aos-delay="200">
-                            <div class="content">
+                            <div class="content m-2">
                                 <h2>Mr. Hammad Ahmed (CFA, CMA, IFQ)  as Product Manager</h2>
                                 <br />
                                 <h5>IJMA was the brainchild of TecStik’s Partner - Muhammad Hammad Ahmed. Over 16 years of experience in Corporate Finance, Commercial Banking, Investment Banking ,Islamic Finance and Fintech.</h5>

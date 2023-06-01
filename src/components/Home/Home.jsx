@@ -1,7 +1,7 @@
 import "./Home.css";
 import React, { useState } from "react";
 import smartphone from '../../assests/smartphone.png'
-import Imag2 from '../../assests/Imag2.png'
+import Imag2 from '../../assests/Imag0.png'
 import mobileIcon from '../../assests/mobileIcon.png'
 import { Slide, Zoom } from 'react-slideshow-image';
 import Header from "../Header/Header";
@@ -118,7 +118,7 @@ function Home() {
     width: "65%",
     height: "280px",
     margin: "0 auto",
-    
+
   };
   return (
     <>
@@ -185,7 +185,7 @@ function Home() {
           <br /> */}
           </div>
         </section>
-
+        <br />
         <section id="about" class="about">
           <div class="container" data-aos="fade-up">
 
@@ -210,7 +210,7 @@ function Home() {
               </div>
             </div>
           </div>
-
+          <br />
           {/* <div class="content">
             <h2>Empowering Islamic Banking with Distinctive Features</h2>
             <br />
@@ -261,7 +261,7 @@ function Home() {
               </div>
 
               <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-                <img src={mobileIcon} class="img-fluid" alt="" id="" />
+                <img src={mobileIcon} id="labtopImage" class="img-fluid" alt="" />
               </div>
             </div>
           </div>
