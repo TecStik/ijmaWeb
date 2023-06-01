@@ -27,11 +27,11 @@ export default function JoinIjma() {
               <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start">
                 <p data-aos="fade-up" data-aos-delay="100" style={{ color: "#11366B" }}>Our Platform</p>
                 <p data-aos="fade-up" data-aos-delay="100" style={{ color: "#11366B", fontSize: "30px" }}>Join IJMA as an IBFI</p>
-                <h6 data-aos="fade-up" style={{ color: "black" }}>Using Blockchain, IJMA offers a disruptive alternative for organizations seeking to overcome the high cost, risk, and friction associated with existing Islamic Banking and Financial Services Operations.</h6>
+                <h6 data-aos="fade-up" style={{ color: "black" }}>Using Blockchain and Advanced Technologies, IJMA offers a disruptive alternative for organizations seeking to overcome the high cost, risk, and friction associated with existing Islamic Banking and Financial Services Operations.</h6>
                 <br />
                 <h6>IJMA effectively tackles the criticism surrounding Islamic Banks adhering to conventional banking controlled by the State Bank of Pakistan.</h6>
                 <br />
-                <h6 data-aos="fade-up" style={{ color: "black" }}>As you can tell by the slideshow on The Monitor Above, IJMA enables the digitization of Islamic Banking with Transparency and Security. IJMA is a permissioned Blockchain network of Islamic Financial Institutions (IFIs).</h6>
+                <h6 data-aos="fade-up" style={{ color: "black" }}>IJMA enables the digitization of Islamic Banking with Transparency and Security. IJMA is a permissioned Blockchain network of Islamic Financial Institutions (IFIs).</h6>
                 <br />
                 <br />
                 <div style={{

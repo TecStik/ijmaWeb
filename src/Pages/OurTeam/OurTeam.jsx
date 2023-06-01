@@ -114,7 +114,7 @@ export default function OurTeam() {
                                 <ul>
                                     <li>over 10 years of Digital Marketing Experience working with The Top International Technology Firms </li>
                                     <br />
-                                    <li>An Undergraduate with Honours from Kingston University, London, UK. Studying Anthropology, he is able to oversee and produce all the expectancies of professionals in Islamic Finance. How Technology can be used to improve and compliment The Sector</li>
+                                    <li>An Undergraduate with Honours from Kingston University, London, UK. Armed with Certified Research Techniques, he oversees and directs the team towards the expectancies of Islamic Finance Professionals. How Technology can be used to improve and compliment The Sector</li>
                                 </ul>
                             </div>
                         </div>

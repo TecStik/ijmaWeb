@@ -38,7 +38,7 @@ const About = () => {
                                 <p data-aos="fade-up" style={{ color: "#11366B" }}>About Operator
                                 </p>
                                 <br />
-                                <h6 data-aos="fade-up" data-aos-delay="400">TecStik is a technology subsidiary led by Pacific Financial Services: A company that has been operating globally for over 20 years. TecStik provides IT consulting, Digitalization, ITAS/SAAS (IT as a Service /Software as a Service), Artificial Intelligence, Data Sciences, Blockchain/Web3 and Cloud offerings. TecStik has assembled a team of seasoned finance professionals and technology specialists who provide clients with optimal solutions for their businesses. After meticulous research and development, TecStik regularly builds technology products for the valued clientele: Including Fintech, Medtech and Ecommerce solutions. These products are well-suited for enhanced productivity and convenience for users. With TecStik’s highly seasoned Islamic Bankers and Financial Consultants working with Pacific Financial Services -IJMA’s parent company -, consistently develops innovative fintech applications for both Mobile and Desktop Devices.</h6>
+                                <h6 data-aos="fade-up" data-aos-delay="400">TecStik is a technology subsidiary led by Pacific Financial Services: A company that has been operating globally for over 20 years. TecStik provides IT Consultations, Digitization, ITAS/SAAS (IT as a Service /Software as a Service), Artificial Intelligence Products, Data Sciences, Blockchain/Web3 and Cloud offerings. TecStik has assembled a team of seasoned finance professionals and technology specialists who provide clients with optimal solutions for their businesses. After meticulous research and development, TecStik regularly builds technology products for its valued clientele: Including Fintech, Medtech and Ecommerce solutions. These products are well-suited for enhanced productivity and convenience for users. With TecStik’s highly seasoned Islamic Bankers and Financial Consultants working with Pacific Financial Services - TecStik's parent company -, our outfit consistently develops innovative fintech applications for both Mobile and Desktop Devices.</h6>
 
                             </div>
                             <div class="col-lg-6 order-1 order-lg-2 about-img" data-aos="fade-left" data-aos-delay="200">
@@ -86,7 +86,7 @@ const About = () => {
                 <div class="about-title">
                     <h2>2017-2020</h2>
                     <br />
-                    <p>Using the latest Web 3.0 Technology, IJMA has been built by TecStik - a separate subsidiary outfit now, launches Hybrid Apps of Islamic Banking and Fintech.</p>
+                    <p>Using the latest Web 3.0 Technology, IJMA has been built by TecStik - a separate subsidiary now, launches Hybrid Apps of Islamic Banking and Fintech.</p>
                 </div>
                 {/* <div class="about-title">
                         <h2></h2>

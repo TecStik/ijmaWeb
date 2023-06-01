@@ -138,7 +138,7 @@ function Home() {
 
                 <div class="content">
                   <ul style={{ listStyleType: "none", marginLeft: "-6%" }}>
-                    <li>Are you seeking an alternative to the expensive, risky, and inefficient nature of traditional Islamic banking and financial services? Your search ends here! IJMA presents an innovative solution driven by blockchain technology, ready to revolutionize the way IBFIs handle transactions and contracts. By addressing criticisms and ensuring genuine Sharia compliance, we bring a groundbreaking approach to the industry.</li>
+                    <li>Are you seeking an alternative to the expensive, risky, and inefficient nature of Traditional Islamic banking and Financial Services? Your search ends here! IJMA represents an innovative solution driven by advanced technologies, ready to revolutionize the way IBFIs handle transactions and contracts. By addressing criticisms and ensuring genuine Sharia compliance, IJMA brings a groundbreaking approach to the industry for its users.</li>
                   </ul>
                 </div>
                 {/* <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
@@ -201,7 +201,7 @@ function Home() {
                   {/* <h3>Join IJMA as an IBFI</h3> */}
                   <br />
                   <ul style={{ listStyleType: "none", marginLeft: "-6%" }}>
-                    <li>Stand out from conventional banks and strengthen your Islamic Banking window with IJMA. IJMA offers enhanced regulatory compliance,real-time automated reporting, and superior controls that minimize the need for physical inspections and audits. Embrace transparency and security, as Blockchain Technology functions to diminish the risks  of forgery and ensures the integrity of your transactions. Paving the Way to Authentically Digitized Islamic Banking.
+                    <li>Stand out from conventional banks and strengthen your Islamic Banking window with IJMA. IJMA offers enhanced regulatory compliance, real-time automated reporting, and superior controls that minimize the need for physical inspections and audits. Embrace transparency and security, as Blockchain Technology functions to diminish the risks  of forgery and ensures the integrity of your transactions. Paving the Way to Authentically Digitized Islamic Banking.
                     </li>
                     <br />
                     {/* <li>With IJMA, you'll enjoy streamlined processes, reduced monitoring requirements, and associated costs. Bid farewell to excessive regulatory reporting and filing burdens, as The IJMA Platform streamlines these tasks on your behalf.</li> */}
@@ -228,11 +228,11 @@ function Home() {
               </h2>
               <br />
               {/* <p>Stand out from conventional banks and strengthen your Islamic Banking window with IJMA. IJMA offers enhanced regulatory compliance,real-time automated reporting, and superior controls that minimize the need for physical inspections and audits. Embrace transparency and security, as Blockchain Technology functions to diminish the risks  of forgery and ensures the integrity of your transactions. Paving the Way to Authentically Digitized Islamic Banking. </p> */}
-              <p>The lack of transparency and the burden of manual documentation can present significant challenges. With IJMA, the entire Islamic Banking transaction is executed digitally in just few clicks/taps, while  ensuring compliance with Sharia principles. There may no longer be delays caused by continuous
-                back-and-forths or pre-signed post-dated documents. Rest assured that The Solution meets Sharia requirements, allowing you to conduct all  transactions seamlessly.
+              <p>The lack of transparency and the burden of manual documentation can present significant challenges. With IJMA, entire Islamic Banking transactions are executed digitally in just a few clicks/taps, while  ensuring compliance with Sharia principles. There may no longer be delays caused by continuous
+                back-and-forths or pre-signed post-dated documents. Rest assured that The Solution meets Sharia requirements, allowing you to conduct all transactions seamlessly.
                 Enhanced Efficiency and Reduced Costs.
               </p>
-              <p>With IJMA, you'll enjoy streamlined processes, reduced monitoring requirements, and associated costs. Bid farewell to excessive regulatory reporting and filing burdens, as The IJMA Platform streamlines these tasks on your behalf.</p>
+              <p>With IJMA, you'll enjoy streamlined processes, reduced monitoring requirements, and associated costs. Say goodbye to the overwhelming requirements of regulatory reporting and filing, because The IJMA Platform simplifies these tasks for banking users of our website.</p>
             </div>
           </div>
 
@@ -251,9 +251,9 @@ function Home() {
                   {/* <h3>Join IJMA as an IBFI</h3> */}
                   <br />
                   <ul style={{ listStyleType: "none", marginLeft: "-6%" }}>
-                    <li>By leveraging IJMA, you can complement the country's digital transformation efforts.Embrace the possibility of integrating with The Raast Network and stay ahead of the curve.</li>
+                    <li>By leveraging IJMA, you can complement the country's digital transformation efforts. Embrace the possibility of integrating with The Raast Network and stay ahead of the curve.</li>
                     <br />
-                    <li>Join us on this groundbreaking journey as we reshape the Islamic Banking landscape. Embrace innovation, improve efficiency, and ensure true Sharia compliance with IJMA. Contact us now to learn more about our transformative solution and how it can benefit your organization. Let's revolutionize Islamic Banking and Financial Services with IJMA</li>
+                    <li>Join us on this groundbreaking journey as we reshape Islamic Banking. Embrace innovation, improve efficiency, and ensure true Sharia compliance using IJMA. Contact us now to learn more about our transformative solution and how it can benefit your organization. Let's revolutionize Islamic Banking and Financial Services with IJMA</li>
                     {/* <br /> */}
                     {/* <li> We understand the concerns surrounding Islamic Banks' operations, which often closely resemble conventional banking systems controlled by the State Bank of Pakistan. IJMA addresses these major criticisms, providing a viable alternative that aligns with the true spirit of Sharia law.</li> */}
                   </ul>
