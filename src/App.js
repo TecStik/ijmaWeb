@@ -1,15 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "antd/dist/antd.min.css";
 import "./App.css";
-import SecondHeader from "./Pages/SecondHeader/SecondHeader";
-import {
-  About,
-  Contact,
-  Home,
-  JoinIjma,
-  OurTeam,
-  Platform,
-} from "./Pages/index";
+
+import { About, Contact, Home, JoinIjma, OurTeam } from "./Pages/index";
 // import 'bootstrap/dist/css/bootstrap.css';
 // import 'bootstrap/dist/css/bootstrap-theme.css';
 import { Helmet } from "react-helmet";
@@ -17,7 +10,6 @@ import { Helmet } from "react-helmet";
 export const App = () => {
   return (
     // <BrowserRouter>
-    //   <SecondHeader />
     // </BrowserRouter>
 
     <BrowserRouter>
@@ -47,7 +39,6 @@ export const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/IJMA-About" element={<About />} />
         <Route path="/IJMA-Join" element={<JoinIjma />} />
-        <Route path="/IJMA-Platform" element={<Platform />} />
         <Route path="/IJMA-OurTeam" element={<OurTeam />} />
         <Route path="/IJMA-Contact" element={<Contact />} />
       </Routes>

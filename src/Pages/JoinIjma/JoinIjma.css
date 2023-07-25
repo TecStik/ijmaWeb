@@ -1,97 +1,94 @@
-
 /*--------------------------------------------------------------
 # JoinIjma Section
 --------------------------------------------------------------*/
 #JoinIjma {
-    /* margin-top: -2%; */
-    width: 100%;
-    height: 70vh;
-    margin-top: 15%;
-  }
-  
-  #JoinIjma p {
-    margin: 0 0 10px 0;
-    font-size: 45px;
-    font-weight: 700;
-    line-height: 56px;
-    color: black;
-  }
-  
-  #JoinIjma h2 {
-    color: #484848;
-    margin-bottom: 50px;
-    /* font-size: 20px; */
-  }
-  
-  #Ijmafooter{
-    margin-top: 20%;
-  }
-  /* #JoinIjma .animated {
+  width: 100%;
+  height: 70vh;
+  margin-top: 15%;
+}
+
+#JoinIjma p {
+  margin: 0 0 10px 0;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 56px;
+  color: black;
+}
+
+#JoinIjma h2 {
+  color: #484848;
+  margin-bottom: 50px;
+  /* font-size: 20px; */
+}
+
+#Ijmafooter {
+  margin-top: 20%;
+}
+/* #JoinIjma .animated {
     animation: up-down 2s ease-in-out infinite alternate-reverse both;
   } */
-  
-  @media (min-width: 1024px) {
-    #JoinIjma {
-      background-attachment: fixed;
-    }
-    #Ijmafooter{
-      margin-top: 20%;
-    }
+
+@media (min-width: 1024px) {
+  #JoinIjma {
+    background-attachment: fixed;
   }
-  
-  @media (max-width: 991px) {
-    #JoinIjma {
-      height: 100vh;
-    }
-  
-    #JoinIjma .animated {
-      -webkit-animation: none;
-      animation: none;
-    }
-  
-    #JoinIjma .JoinIjma-img {
-      text-align: center;
-    }
-  
-    #JoinIjma .JoinIjma-img img {
-      width: 50%;
-    }
+  #Ijmafooter {
+    margin-top: 20%;
   }
-  
-  @media (max-width: 768px) {
-    #JoinIjma {
-      margin-top: 50%;
-    }
-  
-    #JoinIjma h1 {
-      /* font-size: 28px; */
-      line-height: 36px;
-    }
-  
-    #JoinIjma h2 {
-      /* font-size: 18px; */
-      line-height: 24px;
-      margin-bottom: 30px;
-    }
-  
-    #JoinIjma .JoinIjma-img img {
-      width: 70%;
-    }
-    #Ijmafooter{
-      margin-top: 140%;
-    }
+}
+
+@media (max-width: 991px) {
+  #JoinIjma {
+    height: 100vh;
   }
-  
-  @media (max-width: 575px) {
-    #Ijmafooter{
-      margin-top: 100%;
-    }
-    #JoinIjma .JoinIjma-img img {
-      width: 80%;
-    }
+
+  #JoinIjma .animated {
+    -webkit-animation: none;
+    animation: none;
   }
-  
-  /* @-webkit-keyframes up-down {
+
+  #JoinIjma .JoinIjma-img {
+    text-align: center;
+  }
+
+  #JoinIjma .JoinIjma-img img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  #JoinIjma {
+    margin-top: 50%;
+  }
+
+  #JoinIjma h1 {
+    /* font-size: 28px; */
+    line-height: 36px;
+  }
+
+  #JoinIjma h2 {
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+
+  #JoinIjma .JoinIjma-img img {
+    width: 70%;
+  }
+  #Ijmafooter {
+    margin-top: 140%;
+  }
+}
+
+@media (max-width: 575px) {
+  #Ijmafooter {
+    margin-top: 100%;
+  }
+  #JoinIjma .JoinIjma-img img {
+    width: 80%;
+  }
+}
+
+/* @-webkit-keyframes up-down {
     0% {
       transform: translateY(10px);
     }

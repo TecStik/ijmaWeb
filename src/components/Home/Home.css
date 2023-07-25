@@ -64,23 +64,23 @@ h3 {
   }
 }
 
-#slideImage{
+#slideImage {
   margin-left: 15%;
 }
-#ImgeSize{
-width: 70%;
+#ImgeSize {
+  width: 70%;
 }
 @media (max-width: 768px) {
   #hero {
     margin-top: 20px;
   }
 
-  #slideImage{
+  #slideImage {
     margin-left: 0%;
   }
-  #ImgeSize{
+  #ImgeSize {
     width: 100%;
-    }
+  }
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
@@ -106,10 +106,6 @@ width: 70%;
 # sponsor
 --------------------------------------------------------------*/
 
-/*  */
-
-
-
 section {
   padding: 60px 0;
 }
@@ -117,8 +113,6 @@ section {
 .section-bg {
   background-color: white;
 }
-
-
 
 .section-title {
   text-align: center;
@@ -128,7 +122,7 @@ section {
   margin: 15px 0 0 0;
   font-size: 32px;
   font-weight: 700;
-  color: #11366B;
+  color: #11366b;
 }
 .section-title h2 span {
   color: #ffb03b;
