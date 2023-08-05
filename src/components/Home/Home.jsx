@@ -54,7 +54,7 @@ function Home() {
                   data-aos-delay="100"
                   style={{ color: "#11366B" }}
                 >
-                  Embrace IJMA for Islamic-compliant Banking
+                  Embrace IJMA for Sharia-compliant Banking
                 </p>
                 <br />
                 <br />
