@@ -33,7 +33,7 @@ export default function JoinIjma() {
               </p>
               <h6 data-aos="fade-up" style={{ color: "black" }}>
                 Using Blockchain and Advanced Technologies, IJMA offers a
-                disruptive alternative for organizations seeking to overcome the
+                disruptive alternative for financial institutions seeking to overcome the
                 high cost, risk, and friction associated with existing Islamic
                 Banking and Financial Services Operations.
               </h6>

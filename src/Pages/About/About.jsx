@@ -25,56 +25,54 @@ const About = () => {
   return (
     <>
       {/* <div id="NewHome"> */}
-        <Header />
-        <section id="hero" class="d-flex align-items-center">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
-                <p data-aos="fade-up" style={{ color: "#11366B" }}>
-                  About Operator
-                </p>
-                <br />
-                <h6 data-aos="fade-up" data-aos-delay="400">
-                  TecStik is a technology subsidiary led by Pacific Financial
-                  Services: A company that has been operating globally for over
-                  20 years. TecStik provides IT Consultations, Digitization,
-                  ITAS/SAAS (IT as a Service /Software as a Service), Artificial
-                  Intelligence Products, Data Sciences, Blockchain/Web3 and
-                  Cloud offerings. TecStik has assembled a team of seasoned
-                  finance professionals and technology specialists who provide
-                  clients with optimal solutions for their businesses. After
-                  meticulous research and development, TecStik regularly builds
-                  technology products for its valued clientele: Including
-                  Fintech, Medtech and Ecommerce solutions. These products are
-                  well-suited for enhanced productivity and convenience for
-                  users. With TecStik’s highly seasoned Islamic Bankers and
-                  Financial Consultants working with Pacific Financial Services
-                  - TecStik's parent company -, our outfit consistently develops
-                  innovative fintech applications for both Mobile and Desktop
-                  Devices.
-                </h6>
-              </div>
-              <div
-                class="col-lg-6 order-1 order-lg-2 about-img"
-                data-aos="fade-left"
-                data-aos-delay="200"
-              >
-                <img
-                  src={kollectltLogo}
-                  id="labtopImage"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
+      <Header />
+      <section id="hero" class="d-flex align-items-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
+              <p data-aos="fade-up" style={{ color: "#11366B" }}>
+                About Operator
+              </p>
+              <br />
+              <h6 data-aos="fade-up" data-aos-delay="400">
+                TecStik is a technology subsidiary led by Pacific Financial
+                Services PVT. LTD. - A company operating globally for over 20
+                years. TecStik provides IT Consultations, Digitalisation,
+                ITAS/SAAS (IT as a Service /Software as a Service), Artificial
+                Intelligence Products, Data Sciences, Blockchain/Web3 and Cloud
+                offerings. TecStik has assembled a team of seasoned finance
+                professionals and technology specialists who provide clients
+                with optimal solutions for their businesses. After meticulous
+                research and development, TecStik regularly builds technology
+                products for its valued clientele: Including Fintech, Medtech
+                and Ecommerce solutions. These products are well-suited for
+                enhanced productivity and convenience for users. With highly
+                seasoned Islamic Bankers and Financial Consultants working with
+                Pacific Financial Services - TecStik's parent company -, our
+                outfit consistently develops innovative Fintech Applications for
+                both Mobile and Desktop Devices.
+              </h6>
+            </div>
+            <div
+              class="col-lg-6 order-1 order-lg-2 about-img"
+              data-aos="fade-left"
+              data-aos-delay="200"
+            >
+              <img
+                src={kollectltLogo}
+                id="labtopImage"
+                class="img-fluid"
+                alt=""
+              />
             </div>
           </div>
-        </section>
+        </div>
+      </section>
       {/* </div> */}
-
 
       <div id="AboutStore">
         <div class="section-title">
-          <h2>Our Story.</h2>
+          <h2>Our Story</h2>
           <br />
         </div>
       </div>

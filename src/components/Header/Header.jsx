@@ -76,30 +76,37 @@ export default function Header() {
               </Link>
             </li>
             <li className="nav-item">
-              {/* <Link
+              <Link
+                exact
+                to="/IJMA-OurTeam"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Our team
+              </Link>
+            </li>
+            {/* <li className="nav-item">
+              <Link
                 exact
                 to="/contact"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}
               >
-              Our Platform
-              </Link> */}
+                Our Platform
+              </Link>
               <div class="dropdown">
                 <div id="services">
                   Our Platform <i className="fa fa-caret-down"></i>
                 </div>
                 <div class="dropdown-Industries">
                   <>
-                    {/* <><Link to="/" >Our Accreditation</Link></> */}
-                    <>
-                      {" "}
-                      <Link to="/IJMA-OurTeam">Our team</Link>
-                    </>
+                    <Link to="/IJMA-OurTeam">Our team</Link>
                   </>
                 </div>
               </div>
-            </li>
+            </li> */}
             <li className="nav-item">
               <Link
                 exact
