@@ -22,9 +22,9 @@ export default function OurTeam() {
                 Our Team
               </p>
               <h6 data-aos="fade-up" style={{ color: "black" }}>
-                Led by the professionals listed above, TecStik and The IJMA
+                Led by the professionals listed below, TecStik and The IJMA
                 Platform is primarily operated by professionals who have
-                prominent reputations across The Islamic Banking Sprectrum.
+                prominent reputations across The Islamic Banking Spectrum.
               </h6>
               <br />
             </div>
@@ -56,7 +56,7 @@ export default function OurTeam() {
                 <h5>
                   Mr. Khalil A. Hasan has over 57 years of experience in Banking
                   and Finance with local and multinational institutions in
-                  diverse roles including but not limited to:
+                  diverse roles, including but not limited to:
                 </h5>
                 <br />
                 <ul>
@@ -83,9 +83,10 @@ export default function OurTeam() {
                 <br />
                 <h5>
                   Bilal Saleem is the Director of TecStik, bringing you IJMA.
-                  His extensive expertise in Banking and Finance leading Pacific
-                  Financial Services Pvt. Ltd., has allowed TecStik to make
-                  diligent efforts for rectifying Islamic Banking.
+                  Mr. Bilal Saleem's extensive expertise in Banking and Finance,
+                  have allowed him to lead Pacific Financial Services PVT. LTD.
+                  and TecStik into making diligent efforts for rectifying
+                  Islamic Banking.
                 </h5>
                 <br />
                 <ul>
@@ -118,34 +119,33 @@ export default function OurTeam() {
               data-aos-delay="200"
             >
               <div class="content m-2">
-                <h2>Mr. Hammad Ahmed (CFA, CMA, IFQ) as Product Manager</h2>
+                <h2>Mr. Hammad Ahmed (CFA, CMA, IFQ) - Product Manager</h2>
                 <br />
                 <h5>
-                  IJMA was the brainchild of TecStik’s Partner - Muhammad Hammad
-                  Ahmed. Over 16 years of experience in Corporate Finance,
-                  Commercial Banking, Investment Banking ,Islamic Finance and
-                  Fintech.
+                  Hammad has over 16 years of experience in Corporate Finance,
+                  Commercial Banking, Investment Banking , Islamic Finance and
+                  Fintech. Working with international firms.
+                  <br />
+                  <br />
                 </h5>
                 <br />
                 <ul>
                   <li>
-                    Played Instrumental Role in setting up of Islamic Banking
-                    window of Chase Bank in Kenya.{" "}
+                    Played instrumental role in setting up The Islamic Banking
+                    window of Chase Bank in Kenya.
                   </li>
                   <br />
                   <li>
-                    Advisor to Malaysian Islamic Investment Bank on fintech
-                    initiatives.{" "}
+                    Advisor to Malaysian Islamic Investment Bank for fintech
+                    initiatives.
                   </li>
                   <br />
                   <li>
                     Holds prestigious qualifications in finance including
-                    CFA,CMA,IFQ{" "}
+                    CFA,CMA,IFQ
                   </li>
                   <br />
-                  <li>
-                    possess multiple international Fintech accreditations.{" "}
-                  </li>
+                  <li>Holds various global Fintech certifications.</li>
                   <br />
                   <li>
                     Position holder in International Blockchain examination.
@@ -162,26 +162,28 @@ export default function OurTeam() {
               <div class="content">
                 <h2>Mr. Azfar Saleem - Marketing Director</h2>
                 <br />
+                <br />
                 <h5>
                   Creativity is a million tiny acts of daily practice, those
                   with strategy and discipline. Azfar - TecStik and IJMA’s
-                  Marketing Director and Partner creates engaging strategies to
-                  popularize the concept powering IJMA with The Technology that
-                  drives it.
+                  Marketing Director and Partner, creates engaging strategies to
+                  promote the concept powering IJMA.
                 </h5>
                 <br />
                 <ul>
                   <li>
-                    over 10 years of Digital Marketing Experience working with
-                    The Top International Technology Firms{" "}
+                    Over 10 years of Digital Marketing Experience working with
+                    The Top International Technology Firms.
                   </li>
                   <br />
                   <li>
                     An Undergraduate with Honours from Kingston University,
-                    London, UK. Armed with Certified Research Techniques, he
-                    oversees and directs the team towards the expectancies of
-                    Islamic Finance Professionals. How Technology can be used to
-                    improve and compliment The Sector
+                    London, UK.
+                  </li>
+                  <br />
+                  <li>
+                    Azfar leads tech for Islamic Finance growth via certified
+                    research.
                   </li>
                 </ul>
               </div>

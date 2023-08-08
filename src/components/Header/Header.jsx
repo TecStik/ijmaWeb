@@ -83,7 +83,7 @@ export default function Header() {
                 className="nav-links"
                 onClick={handleClick}
               >
-                Our team
+                Our Team
               </Link>
             </li>
             {/* <li className="nav-item">

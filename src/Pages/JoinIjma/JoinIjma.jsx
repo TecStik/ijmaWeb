@@ -7,7 +7,6 @@ import "./JoinIjma.css";
 export default function JoinIjma() {
   return (
     <>
-      {/* <div> */}
       <Header />
 
       <section
@@ -22,7 +21,7 @@ export default function JoinIjma() {
                 data-aos-delay="100"
                 style={{ color: "#11366B" }}
               >
-                Our Platform
+                Why join IJMA?
               </p>
               <p
                 data-aos="fade-up"
@@ -32,22 +31,22 @@ export default function JoinIjma() {
                 Join IJMA as an IBFI
               </p>
               <h6 data-aos="fade-up" style={{ color: "black" }}>
-                Using Blockchain and Advanced Technologies, IJMA offers a
-                disruptive alternative for financial institutions seeking to overcome the
+                Using advanced technologies, IJMA offers a disruptive
+                alternative for financial institutions seeking to overcome the
                 high cost, risk, and friction associated with existing Islamic
                 Banking and Financial Services Operations.
               </h6>
               <br />
               <h6>
                 IJMA effectively tackles the criticism surrounding Islamic Banks
-                adhering to conventional banking controlled by the State Bank of
-                Pakistan.
+                adhering to conventional banking, controlled by the State Bank
+                of Pakistan.
               </h6>
               <br />
               <h6 data-aos="fade-up" style={{ color: "black" }}>
-                IJMA enables the digitization of Islamic Banking with
-                Transparency and Security. IJMA is a permissioned Blockchain
-                network of Islamic Financial Institutions (IFIs).
+                IJMA enables the digitalization of Islamic Banking with
+                Transparency and Security. Bringing you a permissioned
+                Blockchain network of Islamic Financial Institutions (IFIs).
               </h6>
               <br />
               <br />
@@ -62,21 +61,22 @@ export default function JoinIjma() {
                 }}
               >
                 <ul>
-                  <li>Blockchain has taken The Financial World by storm.</li>
                   <li>
-                    The Technology is at the Center of a massive push for
-                    innovation in the global financial sector{" "}
+                    Blockchain Technology has taken The Financial World by
+                    storm.
                   </li>
                   <li>
-                    It holds the potential to fundamentally alter how
-                    transactions are conducted{" "}
+                    Blockchain is at the Centre of a massive push for innovation
+                    in the global financial sector.
                   </li>
                   <li>
-                    The technology is also known as the “Internet of Value”
+                    Blockchain holds the potential to fundamentally alter how
+                    transactions are conducted.
                   </li>
+                  <li>Blockchain is also known as the “Internet of Value”</li>
                   <li>
-                    It increases the efficiency, security and transparency of
-                    transactions
+                    Blockchain increases the efficiency, security and
+                    transparency of transactions
                   </li>
                 </ul>
               </div>
@@ -94,7 +94,7 @@ export default function JoinIjma() {
           </div>
         </div>
       </section>
-      {/* </div> */}
+
       <div id="Ijmafooter">
         <Footer />
       </div>

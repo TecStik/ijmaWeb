@@ -37,20 +37,23 @@ const About = () => {
               <h6 data-aos="fade-up" data-aos-delay="400">
                 TecStik is a technology subsidiary led by Pacific Financial
                 Services PVT. LTD. - A company operating globally for over 20
-                years. TecStik provides IT Consultations, Digitalisation,
-                ITAS/SAAS (IT as a Service /Software as a Service), Artificial
-                Intelligence Products, Data Sciences, Blockchain/Web3 and Cloud
-                offerings. TecStik has assembled a team of seasoned finance
-                professionals and technology specialists who provide clients
-                with optimal solutions for their businesses. After meticulous
-                research and development, TecStik regularly builds technology
-                products for its valued clientele: Including Fintech, Medtech
-                and Ecommerce solutions. These products are well-suited for
-                enhanced productivity and convenience for users. With highly
-                seasoned Islamic Bankers and Financial Consultants working with
-                Pacific Financial Services - TecStik's parent company -, our
-                outfit consistently develops innovative Fintech Applications for
-                both Mobile and Desktop Devices.
+                years. TecStik provides IT Consultations, Digitalisation, and
+                Blockchain/Web3.
+                <br />
+                <br />
+                TecStik has assembled a team of seasoned finance professionals
+                and technology specialists providing clients with optimal
+                solutions for their businesses. After meticulous research and
+                development, TecStik regularly builds technology products for
+                its valued clientele: Including Fintech, Medtech and Ecommerce
+                solutions.
+                <br />
+                <br />
+                These products are well-suited for enhanced productivity and
+                convenience for users. With highly seasoned Islamic Bankers and
+                Financial Consultants working with Pacific Financial Services, TecStik's parent company, TecStik incorporates their
+                suggestions to develop innovative Fintech Applications for both
+                Mobile and Desktop Devices.
               </h6>
             </div>
             <div

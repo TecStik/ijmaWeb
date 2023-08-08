@@ -7,17 +7,6 @@ import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 
 function Home() {
-  const slides = [
-    { url: "https://i.ibb.co/phKFyrw/laptop-1.png", title: "beach" },
-    { url: "https://i.ibb.co/Jdg09c9/laptop-2-01-01.png", title: "boat" },
-    { url: "https://i.ibb.co/phKFyrw/laptop-1.png", title: "beach" },
-    { url: "https://i.ibb.co/Jdg09c9/laptop-2-01-01.png", title: "boat" },
-    { url: "https://i.ibb.co/phKFyrw/laptop-1.png", title: "beach" },
-    { url: "https://i.ibb.co/Jdg09c9/laptop-2-01-01.png", title: "boat" },
-    { url: "https://i.ibb.co/phKFyrw/laptop-1.png", title: "beach" },
-    { url: "https://i.ibb.co/Jdg09c9/laptop-2-01-01.png", title: "boat" },
-    { url: "https://i.ibb.co/phKFyrw/laptop-1.png", title: "beach" },
-  ];
   const images = [
     "https://i.ibb.co/phKFyrw/laptop-1.png",
     "https://i.ibb.co/Jdg09c9/laptop-2-01-01.png",
@@ -35,11 +24,6 @@ function Home() {
     // 'images/slide_7.jpg'
   ];
 
-  const containerStyles = {
-    width: "65%",
-    height: "280px",
-    margin: "0 auto",
-  };
   return (
     <>
       <div>
@@ -227,8 +211,6 @@ function Home() {
             </p>
           </div>
         </div> */}
-
-        {/*  */}
         <Footer />
       </div>
     </>
